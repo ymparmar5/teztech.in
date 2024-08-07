@@ -75,12 +75,12 @@ const Product = () => {
           <div className="product-detail-select" >
             <strong>select Holes Size:</strong>
 
-            <div className="product-detail-select-options">            <img className="product-detail-select-img" src="src/assets/close up.png" alt="" />
+            <div className="product-detail-select-options">            <img className="product-detail-select-img" src="/close up.png" alt="" />
               <p className="secondary" >  12MM (PIXEL)  </p></div>
 
 
-            <div className="product-detail-select-options"> <img className="product-detail-select-img" src="src/assets/single color.png" alt="" /> <p className="secondary" >9MM (SINGLE) </p> </div>
-            <div className="product-detail-select-options"> <img className="product-detail-select-img" src="src/assets/oval5mm.png" alt="" /> <p className="secondary" >5MM (oval) </p> </div>
+            <div className="product-detail-select-options"> <img className="product-detail-select-img" src="/single color.png" alt="" /> <p className="secondary" >9MM (SINGLE) </p> </div>
+            <div className="product-detail-select-options"> <img className="product-detail-select-img" src="/oval5mm.png" alt="" /> <p className="secondary" >5MM (oval) </p> </div>
 
           </div>
 
@@ -100,14 +100,14 @@ const Product = () => {
             <label htmlFor="product-quantity"> <strong> Quantity : </strong> </label>
             <input type="number" defaultValue={1} name="quantity" id="product-quantity" />
 
-            <button className="add-to-cart" >ADD TO CART <img className="add-to-cart-icon" src="src/assets/cart.png" alt="add to cart icon" />  </button>
+            <button className="add-to-cart" >ADD TO CART <img className="add-to-cart-icon" src="/cart.png" alt="add to cart icon" />  </button>
 
 
           </div>
 
           <div id="product-details-buttons" > <strong>   in Stock:</strong>
-            <img className="add-to-cart-icon" src="src/assets/in-stock.png" alt="add to cart icon" />
-            <button className="add-to-cart" >ADD TO WISHLIST <img className="add-to-cart-icon" src="src/assets/love.png" alt="add to cart icon" />  </button>
+            <img className="add-to-cart-icon" src="/in-stock.png" alt="add to cart icon" />
+            <button className="add-to-cart" >ADD TO WISHLIST <img className="add-to-cart-icon" src="/love.png" alt="add to cart icon" />  </button>
           </div>
 
 
@@ -117,12 +117,12 @@ const Product = () => {
 
           <div id="social-share">
             <strong > share with your friends : </strong>
-            <img className="social-share-icon" src="src/assets/whatsapp.png" alt="whatsapp" />
-            <img className="social-share-icon" src="src/assets/instagram.png" alt="whatsapp" />
-            <img className="social-share-icon" src="src/assets/facebook.png" alt="whatsapp" />
-            <img className="social-share-icon" src="src/assets/twitter.png" alt="whatsapp" />
-            <img className="social-share-icon" src="src/assets/linkedin.png" alt="whatsapp" />
-            <img className="social-share-icon" src="src/assets/download.png" alt="whatsapp" />
+            <img className="social-share-icon" src="/whatsapp.png" alt="whatsapp" />
+            <img className="social-share-icon" src="/instagram.png" alt="whatsapp" />
+            <img className="social-share-icon" src="/facebook.png" alt="whatsapp" />
+            <img className="social-share-icon" src="/twitter.png" alt="whatsapp" />
+            <img className="social-share-icon" src="/linkedin.png" alt="whatsapp" />
+            <img className="social-share-icon" src="/download.png" alt="whatsapp" />
 
 
           </div>
