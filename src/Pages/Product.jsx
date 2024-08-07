@@ -136,11 +136,24 @@ const Product = () => {
 
 
           </div>
+
           <strong>Product Description : </strong>
-          <p> &#9724; LENGTH: 320.04</p>
-          <p>&#9724; WIDTH: 243.84</p>
-          <p>&#9724; LENGTH: 320.04</p>
-          <p>&#9724; TOTAL HOLES: 5050</p>
+          <div id="product-detail-discriprion" >
+            <ul  >
+            <li> &#9724; LENGTH: 320.04</li>
+          <li>&#9724; WIDTH: 243.84</li>
+          <li>&#9724; LENGTH: 320.04</li>
+          <li>&#9724; TOTAL HOLES: 5050</li>
+            </ul>
+                  <ul  >
+            <li> &#9724; LENGTH: 320.04</li>
+          <li>&#9724; WIDTH: 243.84</li>
+          <li>&#9724; LENGTH: 320.04</li>
+          <li>&#9724; TOTAL HOLES: 5050</li>
+            </ul>
+          
+          </div>
+
 
 
         </article>
