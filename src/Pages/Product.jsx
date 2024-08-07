@@ -35,9 +35,8 @@ const Product = () => {
               alt=""
             />
           </div>
-          <hr />
           <div id="product-main-img">
-            <img 
+            <img
               src="https://d2j6dbq0eux0bg.cloudfront.net/images/41709041/3788707592.png"
               alt=""
             />
@@ -91,8 +90,19 @@ const Product = () => {
               <div style={{ backgroundColor: "var(--color-secondary)", color: "var(--color-primary)" }} className="product-detail-select-color" > </div> <p className="secondary" >  white  </p></div>
 
             <div className="product-detail-select-options">
-              <div style={{ backgroundColor: "LemonChiffon", color:"LightYellow"
- }} className="product-detail-select-color" > </div> <p className="secondary" >  Yellow  </p></div>
+              <div style={{
+                backgroundColor: "LemonChiffon", color: "LightYellow"
+              }} className="product-detail-select-color" > </div> <p className="secondary" >  Yellow  </p></div>
+
+          </div>
+
+          <div className="product-detail-select" >
+            <strong>select sheet surface:</strong>
+            <div className="product-detail-select-options"> <div style={{ backgroundColor: "var(--color-primary)", color: "var(--color-secondary)" }} className="product-detail-select-color" >  </div>   <p className="secondary" >  Glossy/shining  </p> </div>
+            <div className="product-detail-select-options">
+              <div style={{ backgroundColor: "var(--color-secondary)", color: "var(--color-primary)" }} className="product-detail-select-color" > </div> <p className="secondary" >  rough/dull  </p></div>
+
+      
 
           </div>
 
@@ -135,7 +145,7 @@ const Product = () => {
 
         </article>
       </main>
-      
+
     </>
   );
 };
