@@ -52,7 +52,10 @@
   justify-content: space-around;
   gap: 0.7rem;
 }
-
+#product-name{
+  font-size: 1.75rem;
+  font-weight: 600;
+}
 .secondary {
   align-items: flex-start;
   font-size: 0.9rem;
