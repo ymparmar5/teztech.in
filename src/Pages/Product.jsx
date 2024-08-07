@@ -101,6 +101,7 @@ const Product = () => {
             <div className="product-detail-select-options"> <div style={{ backgroundColor: "var(--color-primary)", color: "var(--color-secondary)" }} className="product-detail-select-color" >  </div>   <p className="secondary" >  Glossy/shining  </p> </div>
             <div className="product-detail-select-options">
               <div style={{ backgroundColor: "var(--color-primary)", color: "var(--color-primary)" }} className="product-detail-select-color" > </div> <p className="secondary" >  rough/dull  </p></div>
+              <div style={{ backgroundColor: "var(--color-primary)", color: "var(--color-primary)" }} className="product-detail-select-color" > </div> <p className="secondary" >  matte  </p></div>
 
       
 
