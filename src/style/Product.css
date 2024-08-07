@@ -1,0 +1,172 @@
+#product-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 4px 4px 4px 4px;
+  flex-direction: row;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+
+#product-images {
+  margin: 1rem 1rem;
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+
+#product-img-galary {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#product-main-img{
+  margin-top:2rem;
+  width: 100%;
+  height: auto;
+}
+
+
+#product-main-img  img{
+  width: 100%;
+  height: auto;
+}
+
+.img-thumbnail {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+
+/* product details right side */
+
+#product-details {
+  padding: 1rem 4rem 0rem 0rem; 
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 0.7rem;
+}
+
+.secondary {
+  align-items: flex-start;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color2);
+}
+
+
+.product-detail-select{
+  margin: 0.5rem 0rem;
+  width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.product-detail-select-img{
+  padding: 0.5rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 7px;
+  width:80px;
+  cursor: pointer;
+  opacity: 0.4;  
+
+}
+.product-detail-select-img:hover{
+
+  scale: 1.1;
+  border: 1px solid var(--color-primary);
+  opacity: 1;  
+
+}
+
+.product-detail-select-color{
+  
+  padding: 0.5rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 7px;
+  width:50px;
+  height:50px;
+  cursor: pointer;
+
+}
+
+.product-detail-select-color:hover{
+  scale: 1.1;
+  border: 1px solid var(--color-primary);
+  opacity: 1;  
+}
+
+
+#social-share{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.social-share-icon{
+  margin: 0.5rem 0.8rem;
+  width: 2rem;
+  cursor: pointer
+}
+
+#product-details-buttons{
+margin: 1rem 0rem 1rem 0rem;
+display: flex;
+flex-direction: row;
+width: 100%;
+gap: 2rem;
+align-items: center;
+;
+}
+
+#product-quantity{
+  height: 2rem;
+  width: 4rem;
+  outline-color:var(--color-primary);
+  outline-style:outset;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--color-green);
+  padding: 0rem 0.5rem;
+}
+.add-to-cart{
+
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  padding: 0.4rem 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer
+
+
+}
+
+.add-to-cart:hover{
+scale: 1.1;
+  color: var(--color-primary);
+
+background-color: var(--color-secondary);
+
+}
+
+
+.add-to-cart-icon{
+  width: 2rem;
+  margin-left: 1rem
+}
+

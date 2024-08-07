@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --font: "Montserrat", sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font);
+  --color-primary: #161616;
+  --color2: #636363fd;
+  --color-secondary: #ffffff;
+  --color-green:#04AA6D;
+
+  text-align: center;
+  text-transform: capitalize;
+  overflow-y: auto; /* Enable vertical scrolling */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#root::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Webkit browsers */
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: var(--font);
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+link {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: var(--font);
+}
