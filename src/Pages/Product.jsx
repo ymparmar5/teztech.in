@@ -72,7 +72,7 @@ const Product = () => {
           </div>
 
           <div className="product-detail-select" >
-            <strong>select Holes Size:</strong>
+            <strong>select Hole Size:</strong>
 
             <div className="product-detail-select-options">            <img className="product-detail-select-img" src="/close up.png" alt="" />
               <p className="secondary" >  12MM (PIXEL)  </p></div>
@@ -100,7 +100,7 @@ const Product = () => {
             <strong>select sheet surface:</strong>
             <div className="product-detail-select-options"> <div style={{ backgroundColor: "var(--color-primary)", color: "var(--color-secondary)" }} className="product-detail-select-color" >  </div>   <p className="secondary" >  Glossy/shining  </p> </div>
             <div className="product-detail-select-options">
-              <div style={{ backgroundColor: "var(--color-secondary)", color: "var(--color-primary)" }} className="product-detail-select-color" > </div> <p className="secondary" >  rough/dull  </p></div>
+              <div style={{ backgroundColor: "var(--color-primary)", color: "var(--color-primary)" }} className="product-detail-select-color" > </div> <p className="secondary" >  rough/dull  </p></div>
 
       
 
