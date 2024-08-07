@@ -135,6 +135,7 @@ const Product = () => {
 
         </article>
       </main>
+      
     </>
   );
 };
