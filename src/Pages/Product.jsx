@@ -96,16 +96,17 @@ const Product = () => {
 
           </div>
 
-          <div className="product-detail-select" >
+          {/* <div className="product-detail-select" >
             <strong>select sheet surface:</strong>
             <div className="product-detail-select-options"> <div style={{ backgroundColor: "var(--color-primary)", color: "var(--color-secondary)" }} className="product-detail-select-color" >  </div>   <p className="secondary" >  Glossy/shining  </p> </div>
             <div className="product-detail-select-options">
               <div style={{ backgroundColor: "var(--color-primary)", color: "var(--color-primary)" }} className="product-detail-select-color" > </div> <p className="secondary" >  rough/dull  </p></div>
-              <div style={{ backgroundColor: "var(--color-primary)", color: "var(--color-primary)" }} className="product-detail-select-color" > </div> <p className="secondary" >  matte  </p></div>
+              <div style={{ backgroundColor: "var(--color-primary)", color: "var(--color-primary)" }} className="product-detail-select-color" > </div> <p className="secondary" >  matte  </p>
+              
+              </div> */}
 
       
 
-          </div>
 
           <div id="product-details-buttons" >
             <label htmlFor="product-quantity"> <strong> Quantity : </strong> </label>
